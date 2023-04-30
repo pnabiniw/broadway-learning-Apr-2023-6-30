@@ -20,3 +20,10 @@
 # git init  # It initializes a local repository
 # git config --global user.name "<username>"
 # git config --global user.email "<email>"
+
+
+# Steps to Push the code to github repo
+# git status  # shows the current status of files
+# 1. git add . (git add --all)
+# 2. git commit -m "<commit-message>"   # -m is flag for message
+# 3. git push -u origin <branch_name>
