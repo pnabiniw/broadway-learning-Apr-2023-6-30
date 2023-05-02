@@ -27,3 +27,14 @@
 # 1. git add . (git add --all)
 # 2. git commit -m "<commit-message>"   # -m is flag for message
 # 3. git push -u origin <branch_name>
+
+# 4. git branch   # Gives all the branches and highlights the current branch
+
+# 5. git remote add <remote_name> <host-alias>:<ssh-link>   # Adds a new origin to local. This is done
+# to establish connection between local and remote repos.
+
+# 6. git remote -v   # To check your remote names
+# 7. git remote remove <remote_name>   # removes the remote alias name (origin)
+# 8. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"  # Generates an SSH key
+# 9. git diff  # shows recent changes
+
