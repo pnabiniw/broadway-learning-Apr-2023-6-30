@@ -38,3 +38,14 @@
 # 8. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"  # Generates an SSH key
 # 9. git diff  # shows recent changes
 
+
+
+############# Git Branch ##########################
+
+
+# 1. git branch  # Lists all the branches and highlights the current branch
+# 2. git branch <branch_name> # Creates a new branch
+# 3. git checkout <branch_name>  # jumps (checkout) to new branch
+
+# 2 and 3 can be obtained from single command from the below command:
+# git checkout -b <branch_name>
