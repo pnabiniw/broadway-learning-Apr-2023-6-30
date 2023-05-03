@@ -48,4 +48,7 @@
 # 3. git checkout <branch_name>  # jumps (checkout) to new branch
 
 # 2 and 3 can be obtained from single command from the below command:
-# git checkout -b <branch_name>
+# 4. git checkout -b <branch_name>
+
+# 6. git merge <branch_name>  # This merges the code from <branch_name> to
+# the current branch.
