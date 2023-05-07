@@ -52,3 +52,4 @@
 
 # 6. git merge <branch_name>  # This merges the code from <branch_name> to
 # the current branch.
+# git branch -D <branch_name>
