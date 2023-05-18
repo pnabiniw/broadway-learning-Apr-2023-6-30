@@ -1,5 +1,5 @@
 class Vehicle:
-    def __init__(self, capacity, doors):
+    def __init__(self, capacity, doors):  # __init__
         self.seat_capacity = capacity
         self.doors = doors
 
@@ -20,6 +20,7 @@ class Car(Vehicle):   # This is single inheritance
 
 rover = Car(5, 4, 50, "blue")
 print(rover.color)
+rover.color = 'Blue'
 print(rover.doors)
 print(rover.mileage)
 print(rover.seat_capacity)

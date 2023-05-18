@@ -1,0 +1,8 @@
+# python -m venv env  => This creates a new virtual environment with name 'env'
+# env\Scripts\activate => activates the virtual environment in windows
+# source env/bin/activate => activates env for linux and mac
+
+# pip list => lists all the packages
+# pip freeze => also lists all the packages
+# pip freeze > requirements.txt => creates a new file requirements.txt with all the environment packages list
+# pip install -r requirements.txt => install the packages from requirements.txt file
