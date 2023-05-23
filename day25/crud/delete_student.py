@@ -11,9 +11,7 @@ def delete(student_id):
             data.remove(student[0])
             fp.seek(0)
             fp.truncate()
-            json_obj = json.dumps(data, indent=2)
-            fp.write(json_obj)
-            # json.dump(data, fp, indent=2)
+            json.dump(data, fp, indent=2)
             print("Student deleted successfully !!")
         else:
             print("Invalid student id")
