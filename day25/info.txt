@@ -1,0 +1,4 @@
+Hello World
+Learning Python
+Learning File methods
+Append Mode

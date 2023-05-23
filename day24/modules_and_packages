@@ -1,0 +1,6 @@
+
+Modules, Python Packages and Libraries / Pypi Packages
+
+1. Modules => Every python file inside a python package is a module
+2. Packages => Each python project folder with __init__.py inside is a python package
+3. Libraries => Collection of python packages and modules
